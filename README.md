@@ -25,7 +25,3 @@ La carpeta `capturas/` contiene vistas verificadas en tres resoluciones:
 - `movil-390x720.png` (una columna)
 - `tablet-768x720.png` (dos columnas)
 - `escritorio-1280x720.png` (tres columnas)
-
-## Publicación solicitada
-
-La actividad exige un repositorio público en GitHub y la publicación del sitio desde una rama `gh-pages`. Sigue `PASOS_ENTREGA.md` para completar ese paso con tu cuenta.
