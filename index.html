@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="PixelVault: tienda de videojuegos independientes para PC y consolas."
+    >
+    <title>PixelVault | Videojuegos para nuevas aventuras</title>
+    <link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+    <header class="site-header" id="inicio">
+      <div class="container header-content">
+        <a class="brand" href="#inicio" aria-label="PixelVault, volver al inicio">
+          <img src="assets/logo-mark.svg" alt="" width="42" height="42">
+          <span>Pixel<span>Vault</span></span>
+        </a>
+
+        <nav aria-label="Navegación principal">
+          <ul class="nav-links">
+            <li><a href="#inicio" aria-current="page">Inicio</a></li>
+            <li><a href="#destacados">Juegos</a></li>
+            <li><a href="#categorias">Categorías</a></li>
+            <li><a href="#comunidad">Comunidad</a></li>
+          </ul>
+        </nav>
+
+        <a class="cart-button" href="#destacados" aria-label="Explorar catálogo">
+          <span aria-hidden="true">✦</span>
+          <span>Explorar</span>
+        </a>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span></span> Temporada de descubrimientos</p>
+            <h1 id="hero-title">Tu próxima gran <em>aventura</em> comienza aquí.</h1>
+            <p class="hero-lead">
+              Explora mundos originales, apoya a estudios independientes y encuentra
+              ese juego que no podrás soltar.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#destacados">Ver destacados</a>
+              <a class="button button-secondary" href="#categorias">Explorar categorías</a>
+            </div>
+            <dl class="hero-stats" aria-label="Cifras de PixelVault">
+              <div><dt>240+</dt><dd>juegos únicos</dd></div>
+              <div><dt>4,9/5</dt><dd>valoración</dd></div>
+              <div><dt>24/7</dt><dd>entrega digital</dd></div>
+            </dl>
+          </div>
+
+          <div class="hero-showcase" aria-label="Selección de juegos destacados">
+            <div class="glow" aria-hidden="true"></div>
+            <img class="cover cover-left" src="assets/citadel-zero.svg" alt="Portada de Citadel Zero">
+            <img class="cover cover-main" src="assets/nebula-echoes.svg" alt="Portada de Nebula Echoes">
+            <img class="cover cover-right" src="assets/orchard-spirits.svg" alt="Portada de Orchard Spirits">
+            <p class="floating-tag"><span aria-hidden="true">★</span> Selección indie</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog section" id="destacados" aria-labelledby="catalog-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Curaduría de la semana</p>
+              <h2 id="catalog-title">Juegos destacados</h2>
+            </div>
+            <a class="text-link" href="#categorias">Ver todas las categorías <span aria-hidden="true">→</span></a>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="product-visual">
+                <img src="assets/nebula-echoes.svg" alt="Portada ilustrada de Nebula Echoes" loading="lazy">
+                <span class="badge">Más vendido</span>
+                <button class="favorite" type="button" aria-label="Agregar Nebula Echoes a favoritos">♡</button>
+              </div>
+              <div class="product-body">
+                <p class="platform">PC · PS5 · XBOX</p>
+                <h3>Nebula Echoes</h3>
+                <p class="product-copy">Explora una galaxia que reacciona a cada una de tus decisiones.</p>
+                <div class="rating" aria-label="Valoración: 4,9 de 5 estrellas"><span aria-hidden="true">★★★★★</span> 4,9</div>
+                <div class="product-footer"><p class="price"><span>Ahora</span>$18.990</p><a href="#comunidad" aria-label="Conocer Nebula Echoes">Ver juego</a></div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-visual">
+                <img src="assets/drift-legends.svg" alt="Portada ilustrada de Drift Legends" loading="lazy">
+                <span class="badge badge-coral">-20%</span>
+                <button class="favorite" type="button" aria-label="Agregar Drift Legends a favoritos">♡</button>
+              </div>
+              <div class="product-body">
+                <p class="platform">PC · XBOX</p>
+                <h3>Drift Legends</h3>
+                <p class="product-copy">Domina circuitos nocturnos donde cada curva cuenta una historia.</p>
+                <div class="rating" aria-label="Valoración: 4,7 de 5 estrellas"><span aria-hidden="true">★★★★★</span> 4,7</div>
+                <div class="product-footer"><p class="price"><span>Ahora</span>$14.390</p><a href="#comunidad" aria-label="Conocer Drift Legends">Ver juego</a></div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-visual">
+                <img src="assets/citadel-zero.svg" alt="Portada ilustrada de Citadel Zero" loading="lazy">
+                <span class="badge badge-blue">Nuevo</span>
+                <button class="favorite" type="button" aria-label="Agregar Citadel Zero a favoritos">♡</button>
+              </div>
+              <div class="product-body">
+                <p class="platform">PC · PS5</p>
+                <h3>Citadel Zero</h3>
+                <p class="product-copy">Reconstruye la última ciudad mientras resistes amenazas mecánicas.</p>
+                <div class="rating" aria-label="Valoración: 4,8 de 5 estrellas"><span aria-hidden="true">★★★★★</span> 4,8</div>
+                <div class="product-footer"><p class="price"><span>Ahora</span>$21.990</p><a href="#comunidad" aria-label="Conocer Citadel Zero">Ver juego</a></div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-visual">
+                <img src="assets/signal-lost.svg" alt="Portada ilustrada de Signal Lost" loading="lazy">
+                <span class="badge badge-coral">-15%</span>
+                <button class="favorite" type="button" aria-label="Agregar Signal Lost a favoritos">♡</button>
+              </div>
+              <div class="product-body">
+                <p class="platform">PC · SWITCH</p>
+                <h3>Signal Lost</h3>
+                <p class="product-copy">Descifra transmisiones imposibles en un thriller espacial atmosférico.</p>
+                <div class="rating" aria-label="Valoración: 4,6 de 5 estrellas"><span aria-hidden="true">★★★★★</span> 4,6</div>
+                <div class="product-footer"><p class="price"><span>Ahora</span>$11.890</p><a href="#comunidad" aria-label="Conocer Signal Lost">Ver juego</a></div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-visual">
+                <img src="assets/orchard-spirits.svg" alt="Portada ilustrada de Orchard Spirits" loading="lazy">
+                <span class="badge">Favorito</span>
+                <button class="favorite" type="button" aria-label="Agregar Orchard Spirits a favoritos">♡</button>
+              </div>
+              <div class="product-body">
+                <p class="platform">PC · SWITCH</p>
+                <h3>Orchard Spirits</h3>
+                <p class="product-copy">Cultiva un huerto mágico y haz amistad con espíritus del bosque.</p>
+                <div class="rating" aria-label="Valoración: 5 de 5 estrellas"><span aria-hidden="true">★★★★★</span> 5,0</div>
+                <div class="product-footer"><p class="price"><span>Ahora</span>$9.990</p><a href="#comunidad" aria-label="Conocer Orchard Spirits">Ver juego</a></div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-visual">
+                <img src="assets/atlas-reborn.svg" alt="Portada ilustrada de Atlas Reborn" loading="lazy">
+                <span class="badge badge-blue">Próximamente</span>
+                <button class="favorite" type="button" aria-label="Agregar Atlas Reborn a favoritos">♡</button>
+              </div>
+              <div class="product-body">
+                <p class="platform">PC · PS5 · XBOX</p>
+                <h3>Atlas Reborn</h3>
+                <p class="product-copy">Traza tu propio mapa en un continente que cambia cada amanecer.</p>
+                <div class="rating" aria-label="Valoración anticipada: 4,8 de 5 estrellas"><span aria-hidden="true">★★★★★</span> 4,8</div>
+                <div class="product-footer"><p class="price"><span>Reserva</span>$24.990</p><a href="#comunidad" aria-label="Conocer Atlas Reborn">Ver juego</a></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories section" id="categorias" aria-labelledby="categories-title">
+        <div class="container">
+          <div class="section-heading compact-heading">
+            <div>
+              <p class="eyebrow">Encuentra tu estilo</p>
+              <h2 id="categories-title">Explora por categoría</h2>
+            </div>
+          </div>
+          <div class="category-grid">
+            <a href="#destacados"><span class="category-icon" aria-hidden="true">⚔</span><span><strong>Aventura</strong><small>48 juegos</small></span><i aria-hidden="true">→</i></a>
+            <a href="#destacados"><span class="category-icon" aria-hidden="true">⌁</span><span><strong>Carreras</strong><small>24 juegos</small></span><i aria-hidden="true">→</i></a>
+            <a href="#destacados"><span class="category-icon" aria-hidden="true">♟</span><span><strong>Estrategia</strong><small>37 juegos</small></span><i aria-hidden="true">→</i></a>
+            <a href="#destacados"><span class="category-icon" aria-hidden="true">✧</span><span><strong>Indie</strong><small>86 juegos</small></span><i aria-hidden="true">→</i></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="community section" id="comunidad" aria-labelledby="community-title">
+        <div class="container community-grid">
+          <div class="community-copy">
+            <p class="eyebrow">Más que una tienda</p>
+            <h2 id="community-title">Una comunidad que juega diferente.</h2>
+            <p>Recibe lanzamientos seleccionados, descuentos y entrevistas con los estudios que están creando el futuro del juego independiente.</p>
+            <ul class="benefit-list">
+              <li><span aria-hidden="true">✓</span> Entrega digital inmediata</li>
+              <li><span aria-hidden="true">✓</span> Compras protegidas</li>
+              <li><span aria-hidden="true">✓</span> Soporte de jugadores reales</li>
+            </ul>
+          </div>
+          <form class="newsletter" action="#comunidad" method="get">
+            <div>
+              <label for="email">Únete al boletín de PixelVault</label>
+              <p>Un correo a la semana. Solo novedades que valen la pena.</p>
+            </div>
+            <div class="form-row">
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="tu@email.com" required>
+              <button class="button button-primary" type="submit">Quiero unirme</button>
+            </div>
+            <small>Al registrarte aceptas recibir novedades. Puedes salir cuando quieras.</small>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <a class="brand" href="#inicio" aria-label="PixelVault, volver al inicio">
+          <img src="assets/logo-mark.svg" alt="" width="38" height="38">
+          <span>Pixel<span>Vault</span></span>
+        </a>
+        <p>© 2026 PixelVault. Proyecto académico de Desarrollo Frontend I.</p>
+        <ul class="footer-links">
+          <li><a href="#inicio">Privacidad</a></li>
+          <li><a href="#inicio">Términos</a></li>
+          <li><a href="#comunidad">Contacto</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
